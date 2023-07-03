@@ -166,7 +166,6 @@ span.highlight {
   animation-duration: 1s;
   animation-fill-mode: forwards;
 }
-
 .slide-in-from-left {
   animation-name: slideInLeft;
 }
