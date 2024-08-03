@@ -1550,3 +1550,31 @@ footer a:hover {
 video {
     width: 300px;
 }
+
+.social-icons {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    list-style: none;
+    padding: 0;
+}
+
+.social-icons li {
+    display: inline-block;
+}
+
+.social-icons a {
+    color: #000;
+    font-size: 24px;
+    text-decoration: none;
+    transition: color 0.3s;
+}
+
+.social-icons a:hover {
+    color: #0073e6;
+}
+
+.social-icons .custom-icon {
+    width: 24px;
+    height: 24px;
+}

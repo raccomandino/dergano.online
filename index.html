@@ -12,7 +12,7 @@
 	<meta name="keywords" content="" />
 	<meta name="description" content="" />
 
-	<link rel="shortcut icon" type="image/x-icon" href="assets/img/favicon.ico" />
+	<link rel="shortcut icon" type="image/x-icon" href="assets/img/logo.jpg" />
 
 	<!-- Set Viewport Options -->
 	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0;" />
@@ -27,12 +27,43 @@
 	<link rel="stylesheet" href="assets/css/main.css" />
 	<link rel="stylesheet" href="assets/css/edits.css" />
 
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 	<!-- Include Libraries -->
 	<script src="./assets/js/jquery.min.js"></script>
 	<script src="assets/js/lib/waypoints.min.js"></script>
 	<script src="assets/js/lib/jquery.easing.min.js"></script>
 	<script src="assets/js/lib/modernizr-2.6.2.min.js"></script>
 	<script src="assets/js/lib/respond.min.js"></script>
+
+    <style>
+        .social-icons {
+            display: flex;
+            justify-content: center;
+            gap: 10px;
+            list-style: none;
+            padding: 0;
+        }
+
+        .social-icons li {
+            display: inline-block;
+        }
+
+        .social-icons a {
+            color: #000;
+            font-size: 24px;
+            text-decoration: none;
+            transition: color 0.3s;
+        }
+
+        .social-icons a:hover {
+            color: #0073e6;
+        }
+
+        .social-icons .custom-icon {
+            width: 24px;
+            height: 24px;
+        }
+    </style>
 
 </head>
 
@@ -65,7 +96,7 @@
 
 			<div class="title">National Security Framework</div>
 
-			<div class="logo"><a href="#"><img src="assets/img/logo.jpg" alt="logo" /></a></div>
+			<div class="logo"><a href="/"><img src="assets/img/logo.jpg" alt="logo" /></a></div>
 
 			<h1 style="font-size: 70px;">Lead Research </br> Manager</h1>
 
@@ -318,7 +349,7 @@
 				<div class="scroll"><a href="javascript:Navigation.scrollTo('.footer');"><img
 							src="assets/img/icon-arrow.svg" alt="arrow" class="svg-raw" /></a></div>
 
-				<div class="logo"><a href="index-2.html"><img src="assets/img/logo.jpg" alt="logo" /></a></div>
+				<div class="logo"><a href="/"><img src="assets/img/logo.jpg" alt="logo" /></a></div>
 
 			</div><!-- end .container -->
 
@@ -328,6 +359,19 @@
 
 	<footer class="footer">
 
+		<div class="social-icons-main">
+			<ul class="social-icons">
+				<li><a href="https://www.facebook.com/raccomandino/" target="_blank"><i class="fa fa-facebook-f"></i></a></li>
+				<li><a href="https://x.com/raccomandino" target="_blank"><i class="fa fa-twitter"></i></a></li>
+				<li><a href="https://www.instagram.com/raccomandino" target="_blank"><i class="fa fa-instagram"></i></a></li>
+				<li><a href="https://www.linkedin.com/in/raccomandino/" target="_blank"><i class="fa fa-linkedin"></i></a></li>
+				<li><a href="https://github.com/raccomandino" target="_blank"><i class="fa fa-github"></i></a></li>
+				<li><a href="https://raccomandino.medium.com/" target="_blank"><img src="./assets/img/medium-brands-solid.svg" alt="Medium" class="custom-icon"></a></li>
+				<li><a href="https://www.upwork.com/freelancers/~01e4e1fadd4714d1fc" target="_blank"><img src="./assets/img/upwork-brands-solid.svg" alt="Upwork" class="custom-icon"></a></li>
+				<li><a href="https://www.freelancer.com/get/raccomandino" target="_blank"><img src="./assets/img/7i9bl65q0tylzdmlchg (1).svg" alt="Freelancer" class="custom-icon"></a></li>
+				<li><a href="https://app.codesignal.com/profile/raccomandino" target="_blank"><img src="./assets/img/simple-icons--codesignal.svg" alt="CodeSignal" class="custom-icon"></a></li>
+			</ul>
+		</div>
 		<div class="container">
 
 			<p><b>Dr. Francesco Dergano</b></p>
@@ -337,10 +381,12 @@
 			</p>
 
 			<div class="vid-hold">
-				<video autoplay loop muted src="./assets/img/WhatsApp Video 2024-08-02 at 11.18.56_f85d0d8f.mp4"></video>
+				<video autoplay loop muted playsinline src="./assets/img/WhatsApp Video 2024-08-02 at 11.18.56_f85d0d8f.mp4"></video>
 			</div>
 
 		</div>
+
+		<p>© Copyright 2024 National Security Framework all rights reserved.</p>
 
 	</footer><!-- end footer -->
 
