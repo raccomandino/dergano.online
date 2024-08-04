@@ -1,4 +1,4 @@
-var Brandon = (function($) {
+var Dergano = (function($) {
 
 	var init = function() {
 
@@ -108,5 +108,5 @@ var Brandon = (function($) {
 }(jQuery));
 
 $(function() {
-	Brandon.init();
+	Dergano.init();
 });
