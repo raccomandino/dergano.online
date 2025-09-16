@@ -1586,3 +1586,10 @@ video {
 img.custom-icon.substack {
     width: 20px !important;
 }
+
+img.custom-icon.kaggle {
+    height: 22px;
+    padding: 0px !important;
+    margin: 0px !important;
+    transform: translate(5px, 0px);
+}
