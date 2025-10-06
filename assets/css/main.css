@@ -1591,5 +1591,10 @@ img.custom-icon.kaggle {
     height: 22px;
     padding: 0px !important;
     margin: 0px !important;
-    transform: translate(5px, 0px);
+}
+
+img.custom-icon.guard-pass {
+    height: 27px;
+    width: 27px;
+    transform: translate(0px, -3px);
 }
