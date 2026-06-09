@@ -1598,3 +1598,10 @@ img.custom-icon.guard-pass {
     width: 27px;
     transform: translate(0px, -3px);
 }
+
+.profile video {
+    width: 100%;
+    max-width: 300px;
+    height: auto;
+    object-fit: cover;
+}
