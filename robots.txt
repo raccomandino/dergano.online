@@ -1,5 +1,5 @@
 User-Agent: *
 Allow: /
 
-Host: https://skydatasol.com
-Sitemap: https://skydatasol.com/sitemap.xml
+Host: https://dergano.online
+Sitemap: https://dergano.online/sitemap.xml
