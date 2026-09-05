@@ -1,0 +1,5 @@
+User-Agent: *
+Allow: /
+
+Host: https://skydatasol.com
+Sitemap: https://skydatasol.com/sitemap.xml
