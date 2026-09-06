@@ -18,9 +18,6 @@ var Dergano = (function($) {
 
 		// Parallax Functionality
 		if ($.fn.Parallax && !Modernizr.appleios) {
-			$('.asteroid-main').Parallax({ property:'translateY', speed:0.10, start:0, delay:-800 });
-			$('.asteroid-1').Parallax({ property:'translateY', speed:-0.14, start:0, delay:-800 });
-			$('.asteroid-2').Parallax({ property:'translateY', speed:0.30, start:0, delay:-800 });
 			$('.about .scroll').Parallax({ property:'translateY', speed:0.10, start:0, delay:-800 });
 			$('.profile').Parallax({ property:'translateY', speed:-0.05, start:0, delay:-800 });
 			$('.interests .scroll').Parallax({ property:'translateY', speed:0.10, start:0, delay:-800 });
