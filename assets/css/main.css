@@ -1554,13 +1554,19 @@ video {
 .social-icons {
     display: flex;
     justify-content: center;
+    align-items: center;
     gap: 10px;
     list-style: none;
     padding: 0;
 }
 
-.social-icons li {
-    display: inline-block;
+.social-icons li,
+.social-icons a {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 24px;
+    line-height: 1;
 }
 
 .social-icons a {
@@ -1587,8 +1593,8 @@ img.custom-icon.substack {
     width: 20px !important;
 }
 
-img.custom-icon.kaggle {
-    height: 22px;
+img.custom-icon.accredible {
+    height: 20px;
     padding: 0px !important;
     margin: 0px !important;
 }
@@ -1596,7 +1602,6 @@ img.custom-icon.kaggle {
 img.custom-icon.guard-pass {
     height: 27px;
     width: 27px;
-    transform: translate(0px, -3px);
 }
 
 .profile video {
